@@ -1,0 +1,14 @@
+<svg width="640" height="800" viewBox="0 0 640 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="800" fill="#f5f6f8"/>
+  <rect width="640" height="800" fill="url(#dots)"/>
+  <defs>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#d8ddea"/>
+    </pattern>
+  </defs>
+  <circle cx="320" cy="330" r="120" fill="#e6e8ec"/>
+  <path d="M120 760c0-120 90-210 200-210s200 90 200 210" fill="#e6e8ec"/>
+  <text x="320" y="470" font-family="Arial, sans-serif" font-size="20" fill="#5b6270" text-anchor="middle">
+    Replace this file: images/profile.jpg
+  </text>
+</svg>

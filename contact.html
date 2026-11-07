@@ -5,89 +5,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact — SallyyHub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="site-header">
-  <nav class="navbar">
-    <a href="index.html" class="navbar__brand">Sallyy<span>Hub</span></a>
-    <button class="navbar__toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-    <ul class="navbar__links">
-      <li><a href="work.html">Work</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="skills.html">Skills</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html" class="navbar__cta" aria-current="page">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-<section class="hero" style="padding-bottom: var(--space-4);">
-  <div class="container">
-    <span class="eyebrow">Contact</span>
-    <h1 style="max-width: 20ch;">Let's build something useful together.</h1>
-    <p class="lead">Reach out about research, data, or humanitarian tech collaborations.</p>
+<header class="site-header"><nav class="navbar">
+  <a href="index.html" class="navbar__brand">Sallyy<span>Hub</span></a><button class="navbar__toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <ul class="navbar__links"><li><a href="work.html">Work</a></li><li><a href="resume.html">Resume</a></li><li><a href="skills.html">Skills</a></li><li><a href="about.html">About</a></li><li><a href="contact.html" class="navbar__cta" aria-current="page">Contact</a></li></ul>
+</nav></header>
+<section class="hero" style="padding-bottom: var(--space-4);"><div class="container"><span class="eyebrow">Contact</span><h1 style="max-width: 20ch;">Let's build something useful together.</h1><p class="lead">Reach out about research, data, or humanitarian tech collaborations.</p></div></section>
+<section class="section" style="padding-top:0;"><div class="container contact-grid">
+  <div>
+    <div class="contact-info-item"><span class="icon">&#9993;</span><div><div style="font-weight:600;">Email</div><a href="mailto:sul.abdulma@gmail.com" style="color:var(--text-muted);">sul.abdulma@gmail.com</a></div></div>
+    <div class="contact-info-item"><span class="icon">&#9742;</span><div><div style="font-weight:600;">Phone</div><a href="tel:+252615724237" style="color:var(--text-muted);">+252 615 724 237</a></div></div>
+    <div class="contact-info-item"><span class="icon">in</span><div><div style="font-weight:600;">LinkedIn</div><span style="color:var(--text-muted);">Add your LinkedIn profile URL</span></div></div>
   </div>
-</section>
-
-<section class="section" style="padding-top:0;">
-  <div class="container contact-grid">
-
-    <div>
-      <div class="contact-info-item">
-        <span class="icon">&#9993;</span>
-        <div>
-          <div style="font-weight:600;">Email</div>
-          <a href="mailto:sul.abdulma@gmail.com" style="color:var(--text-muted);">sul.abdulma@gmail.com</a>
-        </div>
-      </div>
-      <div class="contact-info-item">
-        <span class="icon">&#9742;</span>
-        <div>
-          <div style="font-weight:600;">Phone</div>
-          <a href="tel:+252615724237" style="color:var(--text-muted);">+252 615 724 237</a>
-        </div>
-      </div>
-      <div class="contact-info-item">
-        <span class="icon">in</span>
-        <div>
-          <div style="font-weight:600;">LinkedIn</div>
-          <!-- Replace # with your real LinkedIn profile URL -->
-          <a href="#" style="color:var(--text-muted);">Add your LinkedIn link here</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- This form doesn't send email by itself yet — it opens the visitor's
-         email app pre-filled, via the mailto: action below. -->
-    <form action="mailto:sul.abdulma@gmail.com" method="post" enctype="text/plain">
-      <div class="form-field">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="form-field">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
-      <button type="submit" class="btn btn--primary">Send message</button>
-    </form>
-
-  </div>
-</section>
-
-<footer class="site-footer">
-  <div class="container">
-    <span>&copy; <span data-year></span> Suleiman Abdimalik. All rights reserved.</span>
-    <span><a href="mailto:sul.abdulma@gmail.com">sul.abdulma@gmail.com</a></span>
-  </div>
-</footer>
-
-<script src="js/main.js"></script>
+  <form action="mailto:sul.abdulma@gmail.com" method="post" enctype="text/plain"><div class="form-field"><label for="name">Name</label><input type="text" id="name" name="name" required></div><div class="form-field"><label for="email">Email</label><input type="email" id="email" name="email" required></div><div class="form-field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea></div><button type="submit" class="btn btn--primary">Send message</button></form>
+</div></section>
+<footer class="site-footer"><div class="container"><span>&copy; <span data-year></span> Suleiman Abdimalik. All rights reserved.</span><span><a href="mailto:sul.abdulma@gmail.com">sul.abdulma@gmail.com</a></span></div></footer>
+<script src="main.js"></script>
 </body>
 </html>
